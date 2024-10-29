@@ -28,7 +28,7 @@ const App=()=> {
   };
 
   const deleteTask = (taskId) => {
-    setTasks(tasks.filter((task) => task.id !== taskId)); // Removes the task with the given id
+    setTasks(tasks.filter((task) => task.id !== taskId)); 
   };
 
   return (

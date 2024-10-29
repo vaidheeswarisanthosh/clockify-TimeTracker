@@ -33,6 +33,7 @@ const TaskItem=({ task, updateTask, deleteTask })=> {
 
   return (
     <div className="task-item">
+     
       <p>{task.name}</p>
       <div className="task-controls">
         <span>{new Date(time * 1000).toISOString().substr(11, 8)}</span>
